@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "removeComments": false,
+        "outDir": "dist",
+        "declaration": false,
+        "sourceMap": true,
+        "types": [
+            "node"
+        ],
+        "lib": [
+            "es2016",
+            "es2015"
+        ],
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "strictNullChecks": true
+    },
+    "include": [
+        "src/**/*.ts"
+    ]
+}

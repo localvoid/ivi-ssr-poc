@@ -1,0 +1,55 @@
+{
+  "private": true,
+  "name": "ivi-ssr",
+  "main": "dist/js/ivi-ssr.js",
+  "module": "dist/js/ivi-ssr.js",
+  "typings": "dist/typings/ivi-ssr.d.ts",
+  "version": "0.0.1",
+  "description": "Javascript (TypeScript) library for building web user interfaces.",
+  "license": "MIT",
+  "author": {
+    "name": "Boris Kaul",
+    "email": "localvoid@gmail.com",
+    "url": "https://github.com/localvoid"
+  },
+  "keywords": [
+    "ui",
+    "virtual",
+    "dom",
+    "virtualdom",
+    "vdom",
+    "diff",
+    "browser",
+    "typescript"
+  ],
+  "homepage": "https://github.com/ivijs/ivi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivijs/ivi"
+  },
+  "bugs": {
+    "url": "https://github.com/ivijs/ivi/issues"
+  },
+  "github": "https://github.com/ivijs/ivi",
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dist": "tsc",
+    "watch": "tsc --watch",
+    "lint": "tslint --project ./tsconfig.json"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/benchmark": "^1.0.30",
+    "@types/node": "^7.0.31",
+    "benchmark": "^2.1.4",
+    "ivi-tslint-rules": "^0.1.1",
+    "tslib": "^1.7.1",
+    "tslint": "^5.4.3",
+    "typescript": "^2.3.4"
+  }
+}
