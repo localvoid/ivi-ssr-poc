@@ -192,9 +192,9 @@ const stateA = {
 };
 
 const stateB = {
-    title: "",
-    saved: false,
-    content: "",
+    title: "Draft",
+    saved: true,
+    content: "Hello World",
 };
 
 const I = createBlueprint($context(stateA, $c(App)));
